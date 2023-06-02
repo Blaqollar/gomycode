@@ -1,66 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Inheritance</title>
-    <link rel = "icon" href="images/favicon.png" type="image/x-icon"/>
-  </head>
-
-  <body>
-
-    <style>
-      #id {
-        color: blue;
-      }
-
-
-      p {
-        color: red;
-        border-width: 2px;
-        border-style: solid;
-        border-color: rebeccapurple;
-      }
-
-      .introduction {
-        color: green;
-      }
-    </style>
-    
-    <h1 title="This is a web Architecture">Web Architecture</h1>
-    <h2>
-      Html introduction
-    </h2>
-    <h3>
-      CSS Inheritance
-    </h3>
-    <h4>
-      Algorithms
-    </h4>
-    <h5>
-      Data structures
-    </h5>
-    <h6>
-      Famous Sorting and Searching
-    </h6>
-    <p>
-      <b>
-        Bold
-      </b>
-    </p>
-    <p>
-      <i>
-        Italics
-      </i>
-    </p> 
-    
-    <p>Paragraph <em>1</em> <a href="https://google.com">Please visit google</a></p>
-
-    <!-- default, color(system default) text-decoration cursor -->
-    <p id="id" class="introduction">I am a paragraph that like to para(complain)</p>
-
-  </body>
-
+    <title>Docplanner</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/docplan-logo.png" alt="docplanner-logo" width="268px" height="33px">
+        <div class="nav">
+            <a href="#" id="About">About</a>
+            <a href="#" id="Career">Career</a>
+            <a href="#" id="Department">Department</a>
+        </div>
+    </header>
+    <br>
+    <br>
+    <section class="logo">
+        <img src="images/logo1.png" alt="doc-logo" width="50px" height="40px"> 
+        <p>Making the healthcare experience more human</p>
+    </section>
+    <br>
+    <section class="paragraph">
+        <div class="p2">
+            <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
+        </div>
+        <div class="p4">
+            <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
+        </div>
+    </section>
+    <section class="forsection">
+        <div class="for1">
+            <div id="main1">
+                <img src="images/icon-patients.svg" alt="patients-logo">
+                <p id="for1title">For patients</p>
+                <p>Find a doctor, book a visit and solve any health-related doubt</p>
+            </div>
+            <div id="select1">
+                <select>
+                    <option>Choose country</option>
+                    <option value="#">Argentina</option>
+                    <option value="#">Brazil</option>
+                    <option value="#">Chile</option>
+                    <option value="#">Colombia</option>
+                    <option value="#">Czech</option>
+                    <option value="#">Germany</option>
+                    <option value="#">Italy</option>
+                    <option value="#">Mexico</option>
+                    <option value="#">Peru</option>
+                    <option value="#">Poland</option>
+                    <option value="#">Portugal</option>
+                    <option value="#">Spain</option>
+                    <option value="#">Turkey</option>
+                </select>
+            </div>
+        </div>
+        <div class="for2">
+            <div id="main2">
+                <img src="images/icon-doctors.svg" alt="doctors-logo">
+                <p id="for2title">For doctors</p>
+                <p>Save time managing visits and cut no-shows by half</p>
+            </div>
+            <div id="select2">
+                <select>
+                    <option>Choose country</option>
+                    <option value="#">Argentina</option>
+                    <option value="#">Brazil</option>
+                    <option value="#">Chile</option>
+                    <option value="#">Colombia</option>
+                    <option value="#">Czech</option>
+                    <option value="#">Germany</option>
+                    <option value="#">Italy</option>
+                    <option value="#">Mexico</option>
+                    <option value="#">Peru</option>
+                    <option value="#">Poland</option>
+                    <option value="#">Portugal</option>
+                    <option value="#">Spain</option>
+                    <option value="#">Turkey</option>
+                </select>
+            </div>
+        </div>
+        <div class="for3">
+            <div id="main3">
+                <img src="images/icon-clinics.svg" alt="clinic-logo">
+                <p id="for3title">For clinics</p>
+                <p>Deliver an exceptional patient experience in your clinic</p>
+            </div>
+            <div id="select3">
+                <select>
+                    <option>2 to 20 specialists</option>
+                    <option value="#">Brazil</option>
+                    <option value="#">Czech</option>
+                    <option value="#">Italy</option>
+                    <option value="#">Mexico</option>
+                    <option value="#">Poland</option>
+                    <option value="#">Spain</option>
+                    <option value="#">Turkey</option>
+                </select>
+                <select>
+                    <option>More than 20 specialists</option>
+                    <option value="#">Brazil</option>
+                    <option value="#">Italy</option>
+                    <option value="#">Mexico</option>
+                    <option value="#">Poland</option>
+                    <option value="#">Spain</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <section class="section-3">
+        <div>
+            <div id="section-3-title">
+                <p>we are a global <br>company<br> with local structure</p>
+            </div>
+            <div id="section-3-logos">
+                <img src="images/znanylekarz.png" alt="znanylekarz">
+                <img src="images/Doctoralia.png" alt="Doctoralia">
+                <img src="images/MioDottore.png" alt="MioDottore">
+                <img src="images/doktortakvimi.png" alt="doktortakvimi">
+                <img src="images/znanylekarz.png" alt="znanylekarz">
+                <img src="images/logo-jameda.svg" alt="jameda">
+                <img src="images/logo-tuotempo.svg" alt="logo-tuotempo">
+                <img src="images/logo-gipo-primary.svg" alt="gipo">
+                <img src="images/logo-clinicloud.svg" alt="clinic">
+                <img src="images/logo-feegow.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="section-4">
+        <div class="section-4-header">
+            <h2>The world's biggest <br>healthcare platform</h2>
+            <p>We work from 9 offices all over the world, bringind Docplanner<br>Group to life in 13 countries</p>
+            <img src="images/logocropped.png" alt="cropped-logo">
+        </div>
+        <div class="section-4-4-parts">
+            <div class="first-2">
+                <div id="leader">
+                    <img src="images/flag.png" alt="flag">
+                    <h3>Leader in 13 countries</h3>
+                    <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech, Portugal, Argentina, Peru and Chile</p>
+                 </div>
+                 <div id="patients">
+                    <img src="images/patientss.png" alt="patientss">
+                    <h3>90,000,000 patients</h3>
+                    <p>visit our website each month</p>
+                 </div>
+            </div>
+            <div class="second-2">
+                <div id="appointments">
+                    <img src="images/visits.png" alt="visit">
+                    <h3>15,000,000 appointments</h3>
+                    <p>booked last month</p>
+                </div>
+                <div id="doctors">
+                    <img src="images/doctorss.png" alt="doctorss">
+                    <h3>210,000 active doctors</h3>
+                    <p>trust our solution</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-5">
+        <div>
+            <h3>Improve the lives of millions.<br>Change yours forever.</h3>
+            <p>More than 2800 team mates share our same vision, goals and passion.<br>With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio, Bologna,<br>Mexico city and Cortiba, our search for great talent never stops.</p>
+        </div>
+    </section>
+    <section class="section-6">
+        <div class="country">
+            <div>
+                <img src="images/warsaw.png" alt="warsaw">
+                <div class="buttons">
+                    <p>Warsaw</p>
+                    <button type="button"><b>SEE OPENINGS</b></button>
+                </div>
+            </div>
+            <div>
+                <img src="images/barcelona.png" alt="barcelona">
+                <div class="buttons">
+                    <p>Barcelona</p>
+                    <button type="button"><b>SEE OPENINGS</b></button>
+                </div>
+            </div>
+            <div>
+                <img src="images/munich.png" alt="munich">
+                <div class="buttons">
+                    <p>Munich</p>
+                    <button type="button"><b>SEE OPENINGS</b></button>
+                </div>
+            </div>
+            <div>
+                <img src="images/istanbul.png" alt="istanbul">
+                <div class="buttons">
+                    <p>Istanbul</p>
+                    <button type="button"><b>SEE OPENINGS</b></button>
+                </div>
+            </div>
+            <div>
+                <img src="images/rome.png" alt="rome">
+                <div class="buttons">
+                     <p>Rome</p>
+                     <button type="button"><b>SEE OPENINGS</b></button>
+                </div>
+            </div>
+            <div>
+                <img src="images/bologna.png" alt="bologna">
+                <div class="buttons">
+                    <p>Bologna</p>
+                    <button type="button"><b>SEE OPENINGS</b></button>
+                </div>
+            </div>
+            <div>
+                <img src="images/curitiba.png" alt="curitiba">
+                <div class="buttons">
+                    <p>Curitiba</p>
+                    <button type="button"><b>SEE OPENINGS</b></button>
+                </div>
+            </div>
+            <div>
+                <img src="images/rio-janeiro.png" alt="rio">
+                <div class="buttons">
+                    <p>Rio De Janeiro</p>
+                    <button type="button"><b>SEE OPENINGS</b></button>
+                </div>
+            </div>
+            <div>
+                <img src="images/mexico-city.png" alt="mexico-city">
+                <div class="buttons">
+                    <p>Mexico City</p>
+                    <button type="button"><b>SEE OPENINGS</b></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-7">
+        <div>
+            <h1>Sounds interesting? Join us now!</h1>
+            <button>SEE ALL CURRENT OPENINGS</button>
+        </div>
+    </section>
+    <footer>
+        <div class="the-end">
+            We are leaders in 13 countries:
+            <a href="#">Poland</a>
+            ,
+            <a href="#">Turkey</a>
+            ,
+            <a href="#">Spain</a>
+            ,
+            <a href="#">Italy</a>
+            ,
+            <a href="#">Germany</a>
+            ,
+            <a href="#">Czech</a>
+            ,
+            <a href="#">Portugal</a>
+            ,
+            <a href="#">Mexico</a>
+            ,
+            <a href="#">Colombia</a>
+            ,
+            <a href="#">Brazil</a>
+            ,
+            <a href="#">Argentina</a>
+            and
+            <a href="#">Chile</a>
+            <p>This site uses cookies to deliver services in accordance with this privacy policy. You can specify the condition for storing and accessing cookies on your browser.
+            <br>www.cocplanner.com © 2023</p>
+        </div>
+    </footer>
+       
+</body>
 </html>
