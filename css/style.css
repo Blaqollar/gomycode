@@ -1,351 +1,396 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Work+Sans:wght@300&display=swap');
 @import url('https://fonts.cdnfonts.com/css/roboto');
-.nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 35px;
-    padding-right: 20%;
+html {
+  font-family: sans-serif;
 }
-.nav a{
-    text-decoration: none;
-    color: #01b29b;
+header img {
+  width: 268px;
+  height: 33px;
 }
-header img{
-    padding-left: 10%;
-    padding-top: 2%;
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+  position: fi xed;
+  top: 0;
+  width: 100vw;
+  background-color: white;
+  z-index: 1000;
 }
-.logo{
-    text-align: center;
-    margin-top: auto;
-    font-size: 40px;
-    color: #01b29b;
-}
-.p2{
-    padding-left: 20%;
-}
-.p4{
-    padding-right: 20%;
-}
-.paragraph{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    color: #747474;
-    width: 100%;
-    font-size: 16px;
-}
-.for1{
-    background-color: #01b29b;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
-    padding: 2em 1em 0;
-}
-.for2{
-    background-color: #3d83df;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
-    padding: 2em 1em 0;
-}
-.for3{
-    background-color: #1b2734;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
-    padding: 2em 1em 0;
+.navtools {
+  display: flex;
+  gap: 1.5rem;
 }
 #About,
 #Career:hover,
-#Department:hover {
+#Departments:hover {
   color: #00b39b;
   text-decoration: none;
 }
 #Career,
-#Department {
+#Departments {
   color: #ababab;
 }
-.forsection{
-    display: flex;
-    width: 100px;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    font-size: 1.5em;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-weight: 300;
-    color: #fff !important;
-    line-height: 1;
-    margin: 3rem auto 2rem;
-    font-family: 'Work Sans', Arial, sans-serif;
-    max-width: 1015px;
-    /*position: relative;*/
-    
+.navtools {
+  font-size: 16px;
+  font-weight: 400;
 }
-.forsection img{
-    width: 50px;
-    height: auto;
+/* done with first section */
 
+#headerlogo {
+  width: 40px;
+  aspect-ratio: auto 40 / 40;
+  height: 40px;
 }
-.for1 select{
-    background-color: #00ccb1;
-    border: none;
-    text-decoration: underline;
-    margin-bottom: 30px;
-    font-style: bold;
-    color: #fff !important;
+.leadsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+  width: 60%;
 }
-.for2 select{
-    background-color: #3d83df;
-    border: none;
-    text-decoration: underline;
-    margin-bottom: 30px;
-    font-size: bold;
-    color: #fff !important;
+#headerp {
+  color: #00b39b;
+  font-size: 2.10rem;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  padding-top: 20px;
 }
-.for3 select{
-    background-color: #1b2734;
-    border: none;
-    color: white !important;
-    text-decoration: underline;
-    margin-bottom: 30px;
-    font-size: bold;
+.twoparagraphs {
+  color: #747474;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  padding-left: 260px;
+  padding-right: 280px;
+  width: 100%;
+  justify-content: space-between;
 }
-#main1{
-    
+.p1 {
+  padding-right: 30px;
 }
-#for1title, 
-#for2title, 
-#for3title{
-    font-size: 1.625em;
-    font-weight: 400;
-    color: #fff;
-    margin: 0 3em 0;
-    font-family:'Work Sans', Arial, sans-serif;
-    text-align: justify;
+/* section2done */
+.forsection {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1.375em 1.25em 0;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 3.75rem auto 2.5rem;
+  color: #fff;
+  font-family: Work Sans, Arial, sans-serif;
+  max-width: 1015px;
+  padding: 0 20px;
+  position: relative;
 }
-.section-3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.for1 {
+  background-color: #00ccb1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 0;
+  justify-content: space-between;
+  height: 345px;
 }
-.section-3 div{
-    width: 80%;
-    display: flex;
+.for2 {
+  background-color: #3d83df;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 0;
+  justify-content: space-between;
+  height: 345px;
+  
 }
-#section-3-title{
-     font-size: 1.625em;
-     margin: 0.25em 0 0.35em;
-     padding-right: 1em;
-     color: #00b39b;
-     font-family:'Work Sans', Arial, sans-serif;
-     font-weight: 300;
-     letter-spacing: -0.3px;
+.for3 {
+  background-color: #1b2734;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em 0;
+  justify-content: space-between;
+  height: 345px;
 }
-#section-3-logos img{
-    object-fit: contain;
-    width: 5rem;
+
+.for1 select {
+  background-color: #00ccb1;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-style: bold;
 }
-#section-3-logos{
-    display: flex;
-    gap: 4rem;
-    flex-wrap: wrap;
+.for2 select {
+  background-color: #3d83df;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-style: bold;
 }
-.section-4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 55px;
-    padding-left: 50px;
-    padding-bottom: 0px;
-    background-color: #d0faf4;
+.for3 select {
+  background-color: #1b2734;
+  border: none;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  font-style: bold;
 }
-.section-4-header{
-    font-family: 'Work Sans', Arial, sans-serif;
-    padding-top: 60px;
+.for1 #for1title,
+.for2 #for2title,
+.for3 #for3title {
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+  font-family: Work Sans, Arial, sans-serif;
 }
-.section-4-header h2{
-    font-weight: 300;
-    color: #00b39b;
-    letter-spacing: -0.3px;
-    padding-left: 50px;
+.forsection img {
+  width: 25px;
+  height: auto;
 }
-.section-4-header p{
-    padding-left: 50px;
-    padding-bottom: 50px;
-    padding-top: 20px;
-    font-size: 15px;
-    color: #747474;
+
+.section3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
-.first-2{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-right: 20px;
+.section3 div {
+  width: 60%;
+  display: flex;
 }
-.second-2{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+
+.section3title {
+  font-size: 1.625em;
+  margin: 0.25em 0 0.35em;
+  padding-right: 1em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
 }
-.section-4-4-parts{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 100px;
-    margin-right: 50px;
-    height: 100%;
+.section3logos {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
 }
-.section-4-4-parts h3{
-    letter-spacing: -0.3px;
-    color: #00b39b;
-    font-family: 'Work Sans', Arial, sans-serif;
-    font-size: 1.8em;
-    font-weight: 300;
+.section3logos img {
+  width: 4.5rem;
+  object-fit: contain;
 }
-.section-4-4-parts p{
-    font-size: 0.8em;
-    font-weight: 400;
-    color: #747474;
-    font-family: 'Roboto', sans-serif;
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  background-color: #d0faf4;
+  padding-left: 50px;
 }
-#leader{
-    margin-bottom: 20px;
+.section4header {
+  font-family: Work Sans, Arial, sans-serif;
+  padding-top: 60px;
 }
-#appointments{
-    margin-bottom: 20px;
+.section4header h2 {
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  padding-left: 50px;
 }
-#leader, 
+.section4header p {
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #747474;
+  padding-bottom: 50px;
+}
+.first2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.second2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.section4fourparts {
+  display: flex;
+  margin-right: 50px;
+  height: 100%;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+.section4fourparts h3 {
+  font-size: 1.8461538462em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+.section4fourparts p {
+  font-size: 0.8125em;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+#leader {
+  margin-bottom: 20px;
+}
+#appointments {
+  margin-bottom: 20px;
+}
+#leader,
 #patients,
 #appointments,
-#doctors{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    text-align: center;
-    width: 220px;
-    border-radius: 5px;
+#doctors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  text-align: center;
+  width: 220px;
+  border-radius: 2px;
 }
-#leader img, 
-#patients img, 
-#appointments img, 
-#doctors img{
-    width: 25px;
-    height: auto;
+#leader img,
+#patients img,
+#appointments img,
+#doctors img {
+  width: 25px;
+  height: auto;
 }
-.section-4-4-parts div{
-    width: 250px;
-    height: 500px;
+.section4fourparts div {
+  height: 500px;
+  width: 250px;
 }
-.section-5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 70px;
-    width: 100%;
-   /* background-color: #3d83df;*/
+.section5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  width: 100%;
 }
-.section-5 h3{
-    text-align: center;
-    font-size: 2.14em;
-    color: #00b39b;
-    font-family: 'Work Sans', Arial, sans-serif;
-    font-weight: 400;
-    letter-spacing: -0.5px;
+.section5 h3 {
+  font-size: 2.1428571429em;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  text-align: center;
 }
-.section-5 p{
-    text-align: center;
-    font-family: 'Roboto', Arial, sans-serif;
-    font-weight: 300;
-    margin: 1px;
-    line-height: 1.7;
-    color: #747474;
+.section5 p {
+  margin: 1.6em 0;
+  line-height: 1.7142857143;
+  text-align: center;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
 }
-.section-6 div{
-    border-radius: 2%;
-    margin: 0.5%;
+section6 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5cm;
+  justify-content: center;
 }
-.section-6 p{
-    font-size: medium;
-    font-family: 'Roboto', Arial, sans-serif;
-    padding-top: 20px;
-    padding-left: 20px;
-    color: #747474;
+.section6 div {
+  border-radius: 3%;
+  margin: 0.44%;
 }
-.section-6 button{
-    margin-top: 0.8cm;
-    display: flex;
-    justify-content: center;
-    gap: 2cm;
-    background: #3d83df;
-    color: #fff;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: 20px;
-    align-items: center;
-    text-align: center;
-    border-radius: 4px;
-    font-family:'Roboto', Arial, sans-serif;
-   /* border: #00b39b;*/
+
+.section6 button {
+  margin-top: 0.5cm;
+  display: flex;
+  gap: 2cm;
+  justify-content: center;
+  background: #3d83df;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-align: center;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: Roboto, Arial, sans-serif;
+  margin-right: 20px;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
-.country{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 100px 150px 150px 100px;
+.section6 p {
+  font-size: medium;
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
 }
-div .buttons{
-    justify-content: space-between;
-    display: flex;
+.country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
-.country div:hover{
-    background-color: aliceblue;
+.country div:hover {
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
 }
-.section-7{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+div .buttons {
+  display: flex;
+  justify-content: space-between;
 }
-.section-7 button{
-    text-align: center;
-    background-color: #3d83df;
-    color: #fff;
-    padding: 12px 14px 12px 14px;
-    margin-left: 150px;
-    font-family: 'Roboto', Arial, sans-serif;
-    font-size: 13px;
-    font-weight: 800;
-    border: #fff;
-    padding-right: 10px;
-    border-radius: 4px;
+.section7 h1 {
+  font-size: 2.1428571429em;
+  color: #333;
+  margin-bottom: 0.75em;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: center;
 }
-.section-7 h1{
-    font-size: 2.2em;
-    font-family: 'Work Sans', Arial, sans-serif;
-    color: #333;
-    text-align: center;
-    letter-spacing: -0.4px;
-    font-weight: 300;
+.section7 button {
+  margin-left: 120px;
+  background-color: #3d83df;
+  color: #fff;
+  font-family: Roboto, Arial, sans-serif;
+  border-radius: 4px;
+  text-align: center;
+  border: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 12px;
 }
-footer{
-    text-align: center;
-    font-family: 'Roboto', Arial, sans-serif;
-    padding: 0px 100px 0px 100px;
-    margin-top: 100px;
-    font-size: 13px;
-    color: #ababab;
+.section7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-footer p{
-    padding-top: 25px;
+footer {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 12px;
+  font-family: Roboto, Arial, sans-serif;
+  color: #ababab;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+footer p {
+  padding-top: 20px;
 }
